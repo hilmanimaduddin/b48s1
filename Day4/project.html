@@ -1,0 +1,219 @@
+<html>
+  <head>
+    <title>My Project</title>
+    <link rel="icon" href="image/brandred.png" />
+    <script
+      src="https://kit.fontawesome.com/d0ff47b7d6.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/nav.css" />
+    <link rel="stylesheet" href="css/project.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><img src="image/brandred.png" alt="logo" /></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">My Project</a></li>
+      </ul>
+      <ul>
+        <li>
+          <a class="contact" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="bodi">
+      <h1>ADD MY PROJECT</h1>
+      <form action="" onsubmit="addBlog(event)">
+        <div class="input">
+          <label for="input-project">Project Name</label>
+          <input type="text" name="input-project" id="input-project" />
+        </div>
+        <div class="input date">
+          <div>
+            <label for="input-startdate">Start Date</label>
+            <input type="date" name="input-startdate" id="input-startdate" />
+          </div>
+          <div class="enddate">
+            <label for="input-enddate">End Date</label>
+            <input type="date" name="input-enddate" id="input-enddate" />
+          </div>
+        </div>
+        <div class="input">
+          <label for="input-description">Description</label>
+          <textarea
+            name="input-description"
+            id="input-description"
+            cols="30"
+            rows="4"
+          ></textarea>
+        </div>
+        <div class="input check">
+          <label for="">Technologies</label>
+          <div>
+            <div>
+              <label for="checkbox1" class="check1"
+                ><input type="checkbox" name="checkbox1" id="checkbox1" /> Node
+                Js</label
+              >
+              <label for="checkbox2"
+                ><input type="checkbox" name="checkbox2" id="checkbox2" /> Next
+                Js</label
+              >
+            </div>
+            <div>
+              <label for="checkbox3" class="check2"
+                ><input type="checkbox" name="checkbox3" id="checkbox3" /> React
+                Js</label
+              >
+              <label for="checkbox4"
+                ><input type="checkbox" name="checkbox4" id="checkbox4" />
+                TypeScript</label
+              >
+            </div>
+          </div>
+        </div>
+        <div class="input">
+          <label for="input-image">Upload Image</label>
+          <label class="imageinp" for="input-image"
+            ><p>choose</p>
+            <i class="fa-solid fa-paperclip" style="color: #000000"></i
+          ></label>
+          <input type="file" name="input-image" id="input-image" hidden />
+        </div>
+        <div>
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+      <div class="under">
+        <h1>My Project</h1>
+        <div class="box" id="box-card">
+          <div class="card">
+            <img
+              src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=843&q=80"
+              alt="cat image"
+            />
+            <div class="title">
+              <a href="detail.html">
+                <h3>Dumbways Mobile</h3>
+              </a>
+              <p>durasi : 3 bulan</p>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Doloremque, laboriosam debitis? Ratione sunt repellat eaque dolore
+            </p>
+            <div class="icon">
+              <i class="fa-brands fa-node-js fa-xl" style="color: #000000"></i
+              ><i class="fa-brands fa-react fa-xl" style="color: #000000"></i
+              ><i class="fa-brands fa-jsfiddle fa-xl" style="color: #000000"></i
+              ><i class="fa-brands fa-java fa-xl" style="color: #000000"></i>
+            </div>
+            <div class="buton">
+              <button>edit</button>
+              <button>delete</button>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="https://images.unsplash.com/photo-1491485880348-85d48a9e5312?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+              alt="cat image"
+            />
+            <div class="title">
+              <h3>Dumbways Mobile</h3>
+              <p>durasi : 3 bulan</p>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Doloremque, laboriosam debitis? Ratione sunt repellat eaque dolore
+            </p>
+            <div class="icon">
+              <i class="fa-brands fa-node-js fa-xl" style="color: #000000"></i
+              ><i class="fa-brands fa-react fa-xl" style="color: #000000"></i
+              ><i class="fa-brands fa-jsfiddle fa-xl" style="color: #000000"></i
+              ><i class="fa-brands fa-java fa-xl" style="color: #000000"></i>
+            </div>
+            <div class="buton">
+              <button>edit</button>
+              <button>delete</button>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="https://images.unsplash.com/photo-1519052537078-e6302a4968d4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+              alt="cat image"
+            />
+            <div class="title">
+              <h3>Dumbways Mobile</h3>
+              <p>durasi : 3 bulan</p>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Doloremque, laboriosam debitis? Ratione sunt repellat eaque dolore
+            </p>
+            <div class="icon">
+              <i class="fa-brands fa-node-js fa-xl" style="color: #000000"></i
+              ><i class="fa-brands fa-react fa-xl" style="color: #000000"></i
+              ><i class="fa-brands fa-jsfiddle fa-xl" style="color: #000000"></i
+              ><i class="fa-brands fa-java fa-xl" style="color: #000000"></i>
+            </div>
+            <div class="buton">
+              <button>edit</button>
+              <button>delete</button>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="https://images.unsplash.com/photo-1478098711619-5ab0b478d6e6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+              alt="cat image"
+            />
+            <div class="title">
+              <h3>Dumbways Mobile</h3>
+              <p>durasi : 3 bulan</p>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Doloremque, laboriosam debitis? Ratione sunt repellat eaque dolore
+            </p>
+            <div class="icon">
+              <i class="fa-brands fa-node-js fa-xl" style="color: #000000"></i
+              ><i class="fa-brands fa-react fa-xl" style="color: #000000"></i
+              ><i class="fa-brands fa-jsfiddle fa-xl" style="color: #000000"></i
+              ><i class="fa-brands fa-java fa-xl" style="color: #000000"></i>
+            </div>
+            <div class="buton">
+              <button>edit</button>
+              <button>delete</button>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="https://images.unsplash.com/photo-1501820488136-72669149e0d4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+              alt="cat image"
+            />
+            <div class="title">
+              <h3>Dumbways Mobile</h3>
+              <p>durasi : 3 bulan</p>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Doloremque, laboriosam debitis? Ratione sunt repellat eaque dolore
+            </p>
+            <div class="icon">
+              <i class="fa-brands fa-node-js fa-xl" style="color: #000000"></i
+              ><i class="fa-brands fa-react fa-xl" style="color: #000000"></i
+              ><i class="fa-brands fa-jsfiddle fa-xl" style="color: #000000"></i
+              ><i class="fa-brands fa-java fa-xl" style="color: #000000"></i>
+            </div>
+            <div class="buton">
+              <button>edit</button>
+              <button>delete</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/project.js"></script>
+  </body>
+</html>

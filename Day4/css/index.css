@@ -1,0 +1,62 @@
+body {
+  background-color: rgb(171, 171, 171);
+}
+
+.body {
+  display: flex;
+  margin: 20px 60px;
+  padding: 20px 40px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(77, 77, 77);
+}
+
+.text {
+  margin-right: 80px;
+  display: grid;
+  gap: 20px;
+}
+
+.text .link {
+  display: flex;
+  gap: 0 15px;
+  align-items: center;
+}
+
+.text button {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  padding: 7px 15px;
+  border: none;
+}
+
+.text button:hover {
+  cursor: pointer;
+}
+
+.text .down {
+  color: black;
+  text-decoration: none;
+}
+
+.icon {
+  display: flex;
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 330px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px black;
+  text-align: center;
+  gap: 10px;
+  padding-bottom: 10px;
+}
+
+.card img {
+  border-radius: 10px 10px 0 0;
+}

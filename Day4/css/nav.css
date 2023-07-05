@@ -1,0 +1,39 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  background-color: rgb(200, 200, 200);
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  margin: 0 10px;
+}
+
+nav ul li img {
+  width: 25px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+nav ul li a:hover {
+  font-weight: bold;
+}
+
+nav ul li .contact {
+  background-color: black;
+  color: white;
+  padding: 7px 15px;
+  border-radius: 13px;
+  margin-right: 35px;
+}
