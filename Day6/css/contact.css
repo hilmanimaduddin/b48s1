@@ -1,0 +1,55 @@
+.colom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+form .input {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+form .input input,
+select,
+textarea {
+  background-color: rgb(226, 226, 226);
+  border: 1px solid gray;
+  border-radius: 5px;
+  box-shadow: 0 0 5px gray;
+}
+
+form .input input,
+select {
+  height: 30px;
+}
+
+form button {
+  display: flex;
+  float: right;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  form {
+    width: 90%;
+  }
+
+  form .input {
+    width: 100%;
+  }
+}

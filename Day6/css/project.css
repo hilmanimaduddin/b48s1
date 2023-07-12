@@ -1,0 +1,196 @@
+.bodi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(230, 230, 230);
+}
+
+.bodi h1 {
+  text-align: center;
+  margin: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  padding-bottom: 30px;
+}
+
+form .input {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+form .date {
+  display: flex;
+  flex-direction: row;
+}
+
+form .date .enddate {
+  flex-basis: 0;
+}
+
+.check input {
+  cursor: pointer;
+}
+
+.check1 {
+  margin-right: 44px;
+}
+
+.check2 {
+  margin-right: 40px;
+}
+
+#input-project {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#input-startdate,
+#input-enddate {
+  width: 190px;
+  padding: 5px 10px;
+}
+
+form input,
+textarea {
+  border-radius: 5px;
+  box-shadow: 0 0 10px gray;
+  border: none;
+}
+
+#input-image {
+  border: 1px solid black;
+  padding: 5px 10px;
+}
+
+.imageinp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 10px gray;
+  padding-right: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: white;
+  margin-bottom: 10px;
+}
+
+.imageinp p {
+  background-color: rgb(181, 181, 181);
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+form button {
+  float: right;
+  color: white;
+  background-color: black;
+  padding: 7px 25px;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+.box a {
+  text-decoration: none;
+  color: black;
+}
+
+.card {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 15px;
+  gap: 15px;
+  box-shadow: 0 0 10px gray;
+  border-radius: 7px;
+  margin: 10px;
+}
+
+.card img {
+  width: 100%;
+  object-fit: cover;
+  height: 200px;
+  border-radius: 5px;
+}
+.card .title p {
+  color: rgb(100, 100, 100);
+}
+
+.card .icon {
+  padding: 10px 0;
+  display: flex;
+  gap: 10px;
+}
+
+.durasi {
+  float: right;
+  color: rgb(100, 100, 100);
+}
+
+.card .buton {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card .buton button {
+  width: 48%;
+  padding: 8px 0;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 530px) {
+  form {
+    width: 100%;
+    align-items: center;
+  }
+
+  form .input {
+    width: 90%;
+  }
+
+  .sub {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  form .date {
+    display: flex;
+    flex-direction: column;
+  }
+
+  form .date div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #input-startdate,
+  #input-enddate {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .card {
+    width: 90%;
+  }
+}
